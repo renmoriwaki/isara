@@ -1,0 +1,205 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*reset css*/
+header {
+    height: 75px;
+    margin:0 auto;
+    width:1170px;
+    
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head p {
+   width:240px;
+   height:35px; 
+   text-align: center;
+  
+    
+}
+.head a {
+    position: relative;
+    top:0;
+    left:0;
+    padding:10px 30px;
+    background-color: bisque;
+    text-decoration: none;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    font-weight: 300;
+    font-size: 1px;
+    line-height: 48px;
+    
+    
+    
+}
+
+.logo  {
+    position:relative;
+    top:10px;
+    left:0px;
+}
+
+.logo img {
+    width:120px;
+    
+}   
+
+.logo p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    font-family:'メイリオ', 'Meiryo', sans-serif; 
+    display: inline;
+    position:relative;
+    top:0px;
+    left:0px;
+    }
+
+.top {
+    text-align: center;
+    background-image: url("image/main.jpg");
+    background-size:cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.top img {
+   width: 300px;
+   margin: 40px auto;
+   
+}
+
+.main {
+    background-color: #ebb94d;
+    text-align: center;
+    color:white;
+    padding-top:30px;
+    padding-bottom: 50px;
+}
+
+.main h2 {
+    font-size: 20px;
+    line-height: 32px;
+    color:#ffffff;
+    font-weight: 600;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    margin-bottom: 18px;
+    
+
+}
+
+.main p {
+    
+    background-color: #ffffff;
+    color:#c72594;
+    display: inline-block;
+    
+}
+
+.main a {
+    display: inline-block;
+    margin-top: 48px;
+    background-color: #da6b64;
+    
+    padding:40px 290px;
+}
