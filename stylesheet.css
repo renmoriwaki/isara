@@ -328,8 +328,9 @@ header {
 .contents {
     background: #fef5e0;
     text-align: center;
-    height: 496px;
     padding: 80px 0 70px 0;
+    
+    
    
 }
 
@@ -357,6 +358,8 @@ header {
     
 }
 
+
+
 .content-text {
     font-size: 20px;
     line-height: 32px;
@@ -370,7 +373,7 @@ header {
     border:solid 2px #ebb94d;
     width:1170px;
     margin: 0 auto;
-    padding: 28px 0 50px 0; 
+    padding: 30px 0 50px 0; 
     border-radius: 10px;
     
 }
@@ -379,15 +382,23 @@ header {
     line-height: 32px;
     font-weight: 600;
     color: #333333;
-    padding-bottom:25px;
+    padding-bottom:28px;
+    
 }
 
 .content-skill {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 690px;
     margin: 0 auto;
+    
+}
+
+.skill {
+    display: inline-block;
+    margin: 0 10px;
+} 
+
+.skill img {
+    margin: 0 auto;
+   
 }
 
 .skill p {
@@ -395,5 +406,116 @@ header {
     line-height: 19px;
     font-weight: 300;
     color: #333333;
-    padding-top: 10px
 }
+
+.about-second {
+    background-image: url("image/aboutsecondbg.jpg");
+    background-size:cover;
+    background-position: center -80px;
+    text-align: center;
+    padding:64px 0 40px 0;
+}
+
+.study-step-text {
+    padding:30px 0 35px 0;
+}
+
+.about-second h1 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.about-second-text {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    padding:28px 0 35px 0;
+}
+
+.about-second-text span {
+    color:#ebb94d;
+}
+
+.study-step {
+    display: flex;
+    justify-content:space-between ;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.step h2 {
+    margin: 0 auto ;
+    margin-bottom: 30px;
+    width:315px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color:#ebb94d ;
+    border-radius: 3px;
+
+}
+
+.step {
+    background-color: #ffffff;
+    width: 375px;
+    padding:29px 0px;
+    border-radius: 3px;
+}
+
+.time {
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.step-content {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.about-third {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    color:#ffffff;
+    background-color: #016ea9;
+    text-align: center;
+}
+
+.about-third p {
+    padding:40px 0
+}
+
+.about-third span {
+    color:#ebb94d;
+}
+
+.study-isara {
+   text-align: center; 
+   padding: 65px 0 55px 0;
+}
+
+.study-contents {
+    display: flex;
+    justify-content: center;
+}
+.study-content {
+    height: 180px;
+    padding: 0 22.5px;
+}
+
+.study-logo {
+    width: 180px;
+    height: 180px;
+}
+
+
